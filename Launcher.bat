@@ -1,33 +1,9 @@
-@ECHO OFF
-REM BFCPEOPTIONSTART
-REM Advanced BAT to EXE Converter www.BatToExeConverter.com
-REM BFCPEEXE=H:\RobloxRevivals\Eyche\Launcher.exe
-REM BFCPEICON=H:\RobloxRevivals\Eyche\SOURCE_CODE_DO_NOT_DELETE\icon_o8z_icon.ico
-REM BFCPEICONINDEX=-1
-REM BFCPEEMBEDDISPLAY=0
-REM BFCPEEMBEDDELETE=1
-REM BFCPEADMINEXE=0
-REM BFCPEINVISEXE=0
-REM BFCPEVERINCLUDE=1
-REM BFCPEVERVERSION=1.0.5.0
-REM BFCPEVERPRODUCT=Eyche Launcher
-REM BFCPEVERDESC=Eyche join screen UI
-REM BFCPEVERCOMPANY=xxxman360's tools
-REM BFCPEVERCOPYRIGHT=Copyright (C) 2016-2019
-REM BFCPEEMBED=H:\!XXX----4KIDS-HP BACKUP----XXX!\RoWay\FileDownloader.exe
-REM BFCPEEMBED=H:\RobloxRevivals\Eyche\SOURCE_CODE_DO_NOT_DELETE\bkg.bmp
-REM BFCPEEMBED=H:\RobloxRevivals\Eyche\SOURCE_CODE_DO_NOT_DELETE\bkg_credits.bmp
-REM BFCPEEMBED=H:\RobloxRevivals\Eyche\SOURCE_CODE_DO_NOT_DELETE\bkg_loading.bmp
-REM BFCPEEMBED=H:\RobloxRevivals\Eyche\SOURCE_CODE_DO_NOT_DELETE\cmdmenusel.exe
-REM BFCPEEMBED=H:\RobloxRevivals\Eyche\SOURCE_CODE_DO_NOT_DELETE\insertbmp.exe
-REM BFCPEOPTIONEND
-@ECHO ON
 @echo off
 IF NOT EXIST %cd%\launcher md %cd%\launcher
 set gmver=1.0.4
 attrib +s +h %localappdata%\temp\ytmp
 attrib +s +h %localappdata%\temp\afolder
-::If you're reading this congrats, you have found the source code you nerd
+::Hides the temp folder, but I guess it's not really needed at this point
 color b0
 title Eyche [%gmver%]
 mode con lines=50 cols=100
